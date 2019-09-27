@@ -1,0 +1,317 @@
+* CSS files add styling rules to your content */
+* {
+  box-sizing: border-box;}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  
+}
+h3{
+  color:blue;
+}
+
+#banner {
+  background: url("https://cdn.glitch.com/1565b414-513f-4342-b74c-eb7a5ac33351%2Fasphalt-blue-clouds-1133505.jpg?v=1566161448914");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: grid;
+  position: relative;
+  height: 15rem;
+  margin:0;
+}
+
+#nav {
+  position: relative;
+  background-color: #01689b;
+  height: 60px;
+  display: grid;
+  line-height: 0.8;
+  font-weight: 150;
+  font-size: 13px;
+  
+}
+
+#nav-home {
+  align-self: center;
+  justify-self: left;
+  padding-left: 2%; /**/
+  position: absolute;
+ 
+}
+
+#nav-home > a {
+  color: white;
+  font-size: 20px; /**/
+  text-decoration: none;
+}
+
+#nav-home > a:hover {
+  text-decoration: underline;
+}
+
+/* navigation */
+
+.nav {
+  border-bottom: 1px solid #eaeaeb;
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  position: relative;
+  display: inline-block;
+  margin-left: 15%;
+}
+
+.menu {
+  margin: 0 30px 0 0;
+  
+}
+
+.menu a {
+  
+  clear: both;
+  text-decoration: none;
+  color: white;
+  margin: 0 4px;/**/
+  line-height: 75px;
+  font-size: 14px;/**/
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/*-----index main----*/
+
+.index-foto{
+  height:15rem;
+  border-radius: 8px;
+  float:right;
+  margin-right:1.5rem;
+  transition: width 2s, height 2s;
+}
+.index-foto:hover{
+  height:20rem;
+}
+
+#container{
+  background: #f3f3f3;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: stretch;
+  align-content: stretch;
+  margin: 1rem;
+}
+
+h1{
+  color:darkgray;
+  text-align:center;
+  font-style: italic;
+  text-shadow: 3px 2px gray;
+  font-size:2rem
+}
+
+#container h3{
+  color:darkgray;
+  text-align:center;
+  font-style: italic;
+  text-shadow: 3px 2px gray;
+  font-size:2rem
+}
+
+
+  
+footer{
+  position:relative;
+  bottom:0;
+  width:100%;
+  margin:0rem;
+  background:#01689b;
+  color:white;
+  text-align:center;
+  padding:0.5rem;
+}
+footer a{
+  color:yellow;
+  font-size:1.5rem;
+}
+  
+.container {
+  background: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: stretch;
+  align-content: stretch;
+  margin: 1rem;
+ 
+}
+#row{
+  flex-direction: row;
+}
+
+/*-----travels------*/
+
+  #banner-travels{
+  background: url("https://cdn.glitch.com/1565b414-513f-4342-b74c-eb7a5ac33351%2Fadventure-blur-close-up-346885.jpg?v=1566228908279");
+  background-size: 100% 100%;;
+  background-repeat: no-repeat;
+  display: grid;
+  position: relative;
+  height: 25rem;
+  margin:0;
+}
+.travels-foto{
+  height:15rem;
+  border-radius: 8px;
+  float:right;
+  margin-right:2rem;
+  transition: width 2s, height 2s;
+  
+}
+.travels-foto:hover{
+  height:20rem; 
+  }
+
+/*-----hobby------*/
+  #banner-hobby {
+  background: url("https://cdn.glitch.com/1565b414-513f-4342-b74c-eb7a5ac33351%2Fcactus-banner.jpg?v=1566229321960");
+  background-size: 100% 100%;;
+  background-repeat: no-repeat;
+  display: grid;
+  position: relative;
+  height: 25rem;
+  margin:0;
+}
+.cactus-foto{
+  height:15rem;
+  float: left;
+  margin-right:2rem;
+  transition: width 2s, height 2s;
+}
+.cactus-foto:hover{
+  height:20rem;
+}
+
+  /*-----myCats------*/
+  #banner-Mycats {
+  background: url("https://cdn.glitch.com/1565b414-513f-4342-b74c-eb7a5ac33351%2Fadorable-animal-cat-1440387.jpg?v=1566228512087");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: grid;
+  position: relative;
+  height: 25rem;
+  margin:0;
+}
+
+.cats-foto{
+  height:20rem;
+  border-radius: 8px;
+}
+.cats{
+  text-align:center;
+  
+}
+
+
+/*-----cook------*/
+  #banner-cook {
+  background: url("https://cdn.glitch.com/1565b414-513f-4342-b74c-eb7a5ac33351%2Fcook-banner.jpg?v=1566230373558");
+  background-size: 100% 100%;;
+  background-repeat: no-repeat;
+  display: grid;
+  position: relative;
+  height: 25rem;
+  margin:0;
+}
+
+.fish{
+  height:15rem;
+  
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #C0C0C0;
+}
+th {
+  color:white;
+    
+}
+
+.chefs{
+  text-align:center;
+}
+.chefs a:hover{
+    color:orange;
+  }
+
+
+@media only screen and (min-width:600px) {
+
+
+  #nav-home > a {
+  font-size: 25px; /**/
+}
+
+
+/* navigation */
+
+.nav {
+  margin-left: 45%; 
+}
+
+
+.menu a {
+  font-size: 18px;/**/
+}
+  
+#menu {
+  
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+}
+  
+.index-foto{
+  height:20rem;
+  border-radius: 8px;
+  float:right;
+  margin-right:2rem;
+  transition: width 2s, height 2s;
+}
+.index-foto:hover{
+  height:30rem;
+}
+
+.cactus-foto{
+  height:20rem;
+
+}
+
+.cactus-foto:hover {
+  height:30rem;
+}
+  
+.travels-foto{
+  height:20rem;
+ 
+}
+.travels-foto:hover{ 
+  height:30rem; 
+}
+
+
